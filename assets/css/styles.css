@@ -11,6 +11,16 @@
 
 :root {
 	/* default theme */
+	--background-color: #202023;
+	--text-color: #EEE;
 	
 	/* light theme */
 }
+
+body {
+	font-family: 'Quicksand';
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+/* header */
