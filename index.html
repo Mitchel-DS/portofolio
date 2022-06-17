@@ -12,40 +12,72 @@
 
 <body>
 	<header>
-		<nav>
-			<ul class="nav-links">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
+		<nav class="navbar">
+			<div class="navbar-main">
+				<div class="logo">
+					<a href="#"><h1>Mitchel Staal</h1></a>
+				</div>
+				<div class="navbar-links">
+					<ul>
+						<li><a href="#banner">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="toggle">
+				<button class="theme">test</button>
+			</div>
 		</nav>
 	</header>
 
 	<main>
-		<section>
+		<section class="banner" id="banner">
+			<img src="/assets/images/projects/project_fetchfirst.png" alt="Banner image">
+		</section>
+
+		<section class="introduction" id="about">
 			<p>Hello, I'm a Developer Student based in Amsterdam!</p> 
 		</section>
-		<section>
-			<h1>Mitchel Staal</h1>
-			<p>Full-stack Developer</p>
+		<section class="title">
+			<div class="title-information">
+				<h1>Mitchel Staal</h1>
+				<p>Developer (Front-end, Back-end, UX/UI designer)</p>
+			</div>
+			<img src="/assets/images/me.jpg" alt="profile image">
 		</section>
-		<section>
+		<section class="about">
 			<h2>About me</h2>
-			<p>Mitchel is a Communication Multi Media Design student at the Amsterdam University of Applied Sciences.</p>
+			<p>Hi, my name is Mitchel. Currently a Communication Multi Media Design student at the Amsterdam University of Applied Sciences. Trying to become a better all-around developer. </p>
 			<button><a href="#">My projects</a></button>
 
 			<h3>Skills</h3>
 			<p>Html, CSS, JavaScript</p>
 		</section>
 
-		<section>
+		<section class="projects" id="projects">
 			<h2>Projects</h2>
+			<div class="project-container">
+				<div class="project">
+					<img src="/assets/images/projects/project_fetchfirst.png" alt="Project fetch first">
+					<h4>Fetch first</h4>
+					<p>A tool to help you find schools based on your interests.</p>
+				</div>
+				<div class="project">
+					<img src="/assets/images/projects/project_fetchfirst.png" alt="Project fetch first">
+					<h4>Fetch first</h4>
+					<p>A tool to help you find schools based on your interests.</p>
+				</div>
+			</div>
+			
 		</section>
 
-		<section>
+		<section class="socials" id="contact">
 			<h2>Socials</h2>
 			<ul>
+				<li><a href="#">Linkedin</a></li>
+				<li><a href="#">Github</a></li>
 				<li><a href="#">Instagram</a></li>
 			</ul>
 		</section>
@@ -55,10 +87,11 @@
 		<div class="socials">
 
 		</div>
-		<ul>
+		<ul class="nav">
 			<li><a href="#">Home</a></li>
-			<li><a href="#">Works</a></li>
 			<li><a href="#">About</a></li>
+			<li><a href="#">Projects</a></li>
+			<li><a href="#">Contact</a></li>
 		</ul>
 		<p>© 2022 Mitchel Staal. All rights reserved</p>
 	</footer>
