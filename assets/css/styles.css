@@ -76,12 +76,20 @@ header nav.navbar .logo {
 	margin: 1em 2em 1em 0;
 }
 
+header nav.navbar .logo a img {
+	width: 1.5em;
+	height: 1.5em;
+	margin-right: .4em;
+}
+
 header nav.navbar .logo h1 {
 	font-size: 1.2em;
 }
 
 header nav.navbar a {
 	text-decoration: none;
+	display: flex;
+	align-items: center;
 }
 
 header nav.navbar h1 {
