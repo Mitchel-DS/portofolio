@@ -20,6 +20,10 @@
 	/* light theme */
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Quicksand';
 	background-color: var(--background-color);
@@ -127,6 +131,7 @@ main section.title {
 
 main section.title img {
 	width: 100px;
+	height: 100px;
 	border-radius: 50%;
 	border: 2px solid #363638;
 }
@@ -135,14 +140,14 @@ main section.about button {
 	background-color: var(--highlight-color);
 	border: none;
 	border-radius: .5em;
-	padding: .5em 2em .5em 2em;
+	padding: 1em 2em 1em 2em;
 	margin: 1em 0 1em 0;
 }
 
 main section.about button a {
 	text-decoration: none;
 	font-weight: bold;
-	color: #000;
+	color: #363638;
 }
 
 main section.projects .project-container {
