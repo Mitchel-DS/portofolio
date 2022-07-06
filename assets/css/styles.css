@@ -80,6 +80,7 @@ header nav.navbar .logo a img {
 	width: 1.5em;
 	height: 1.5em;
 	margin-right: .4em;
+	margin-left: .4em;
 }
 
 header nav.navbar .logo h1 {
@@ -118,7 +119,7 @@ main {
 }
 
 main section {
-	margin-bottom: 1em;
+	margin-bottom: 2em;
 }
 
 main section.banner img {
